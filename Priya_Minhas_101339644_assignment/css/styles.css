@@ -1,0 +1,36 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular' !important;
+}
+
+.searchForm{
+    background-color: #FAF3F1;
+    box-shadow: 17px 10px black;
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.listingHeading{
+    background-color: azure;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    border-right: 2px solid white;
+}
+.odd{
+    background-color: bisque;
+}
+.even{
+    background-color: cornsilk;
+}
+.albumsArt{
+    
+}
+.card-img-top{
+    height: 200px;
+}
+.card{
+    transition: all 0.3s linear;
+}
+.card:hover {
+    box-shadow: 1px 0.4rem 1.05rem 0px black;
+    transform: translateY(-8px);
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Checkout</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Payment</h1>
+            <div class="paymentForm ovrflow">
+                <h4>Credit Card</h4>
+                <hr>
+                <h4>Card Information</h4>
+                <div class="leftBox">
+                    <div class="row">
+                        <label>Credit Card Number</label>
+                        <input type="text" name="cardNo" id="cardNo" class="inputField" placeholder="Enter Visa or Mastercard">
+                    </div>
+                    <div class="row ovrflow">
+                        <div class="leftside">
+                            <label>Expiry Month</label>
+                            <select name="expiryMon" id="expiryMon">
+                                <option value=""></option>
+                                <option value="1">Jan</option>
+                                <option value="2">Feb</option>
+                                <option value="3">Mar</option>
+                                <option value="4">Apr</option>
+                                <option value="5">May</option>
+                                <option value="6">Jun</option>
+                                <option value="7">Jul</option>
+                                <option value="8">Aug</option>
+                                <option value="9">Sep</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dec</option>
+                            </select>
+                        </div>
+                        <div class="rightside">
+                            <label>Expiry Year</label>
+                            <select name="expiryYr" id="expiryYr">
+                                <option value=""></option>
+                                <option value="21">2021</option>
+                                <option value="22">2022</option>
+                                <option value="23">2023</option>
+                                <option value="24">2024</option>
+                                <option value="25">2025</option>
+                                <option value="26">2026</option>
+                                <option value="27">2027</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <label>CCV</label>
+                        <input type="text" name="ccv" id="ccv" class="inputField ccv">
+                        <span class="helpText">This 3 or 4 digit code is on the back or front of your card.</span>
+                    </div>
+                </div>
+                <div class="rightBox">
+                    <div class="orderSummary">
+                        <div class="row">
+                            <h3>Order Summary</h3>
+                        </div>
+                        <div class="row ovrflow">
+                            <label class="leftText">Product Subtotal</label>
+                            <span class="rightText">$32.34</span>
+                        </div>
+                        <div class="row ovrflow">
+                            <label class="leftText">Estimated Shipping</label>
+                            <span class="rightText">$4.99</span>
+                        </div>
+                        <div class="row ovrflow">
+                            <label class="leftText">Estimated Taxes</label>
+                            <span class="rightText">$4.85</span>
+                        </div>
+                        <hr>
+                        <div class="row ovrflow">
+                            <label class="leftText">Estimated Total</label>
+                            <span class="rightText">$42.18</span>
+                        </div>
+                        <div class="row">
+                            <input type="button" id="submit" name="submit" value="Continue" class="continueBtn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

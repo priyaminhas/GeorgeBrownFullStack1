@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    border: 1px solid #edf0f0;
+    background-color: #f7f8f8;
+    padding: 10px;
+    height: 700px;
+}
+.paymentForm {
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 17px 10px black;    
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.leftBox {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+.rightBox {
+    width: 40%;
+    float: right;
+    padding: 20px;
+}
+.inputField{
+    font-size: 14px;
+    line-height: 12px;
+    width: 100%;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #adadad;
+    border-radius: 2px;
+}
+label{
+    color:#1d242c;
+    font-size:14px;
+    line-height: 30px;
+    display: block;
+}
+.continueBtn{
+    width: 100%;
+    font-weight: bold;
+    background-color: #ffce00;
+    height: 40px;
+    cursor: pointer;
+    border:none;
+}
+.helpText{
+    font-size: 12px;
+    float: right;
+    width: 50%;
+}
+.ccv{
+    width: 40%;
+    float: left;
+}
+.ovrflow{
+    overflow: hidden;
+}
+.leftside {
+    width: 30%;
+    float: left;
+}
+.rightside {
+    width: 70%;
+    float: left;
+}
+select {
+    width: 150px;
+    line-height: 12px;
+    height: 44px;
+}
+.orderSummary {
+    width: 50%;
+    overflow: hidden;
+}
+.rightText {
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    width: 50%;
+    text-align: right;
+}
+.leftText {
+    float: left;
+    width: 50%;
+}

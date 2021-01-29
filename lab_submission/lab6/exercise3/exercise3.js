@@ -1,0 +1,1 @@
+window.confirm('Remember to close your <tags>');

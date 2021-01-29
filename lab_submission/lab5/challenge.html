@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Exercise 6</title>
+    <link href="form-styles.css" rel="stylesheet" >
+    </head>
+    <body>
+        <form>
+            <fieldset >
+                <legend>Order Form</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" class="inputText" placeholder="Enter your name" required>
+                <label for="phone">Telephone:</label>
+                <input type="tel" id="phone" name="phone"  class="inputText" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <label for="email">E-mail Address:</label>
+                <input type="email" id="email"  class="inputText" name="email" placeholder="Enter your email address">
+            </fieldset>
+            <fieldset >
+                <legend>Emulators</legend>
+                <label for="qty">Quantity (Maximum 5):</label> 
+                <input class="inputText" type="number" max="5" min="1" id="qty" name="qty" >
+                <label for="game">Games:</label> 
+                <select  class="inputText" id="game" name="game" required>
+                    <option value="">Please Select a Game</option>
+                    <option value="0">Ataria</option>
+                    <option value="1">Sega Genesis</option>
+                    <option value="2">Nintendo</option>
+                    <option value="3">Play Station</option>
+                    <option value="4">XBox</option>
+                </select>
+                <button type="submit" class="buttonSubmit" value="submit">Submit</button>
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
